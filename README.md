@@ -6,7 +6,7 @@ from WebUntis — in the terminal and as a web page for a screen in the school.
 ## Start
     pip install -r requirements.txt
     python3 vertretungsplan.py --demo --serve   # try it with fake data
-    # rename untis.env -> .env, fill it in, then:
+    cp .env.example .env                        # then fill in your WebUntis login
     python3 vertretungsplan.py                  # terminal list
     python3 vertretungsplan.py --serve          # web page on port 8080, refreshes every 5 min
 
