@@ -1,4 +1,3 @@
-x^
 import argparse
 import datetime as dt
 import html
@@ -346,6 +345,7 @@ body{background:var(--bg);color:var(--label);
 
 /* 16:9 board for a TV / monitor: fixed frame, no scrolling, text scales to fit */
 html,body{height:100%;overflow:hidden}
+*{cursor:none!important}
 body{display:flex;align-items:center;justify-content:center}
 .stage{width:min(100vw,calc(100vh * 16 / 9));aspect-ratio:16/9;display:flex;flex-direction:column;
   background:var(--bg);overflow:hidden}
